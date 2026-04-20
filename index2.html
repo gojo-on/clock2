@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Homework</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-cog"></i> <span>Dashboard <span>v.01</span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fas fa-key"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-cube"></i> Product</a> <i class="fas fa-chevron-right arrow"></i></li>
+                    <li class="active"><a href="#"><i class="fas fa-user-circle"></i> Customers</a> <i class="fas fa-chevron-right arrow"></i></li>
+                    <li><a href="#"><i class="fas fa-wallet"></i> Income</a> <i class="fas fa-chevron-right arrow"></i></li>
+                    <li><a href="#"><i class="fas fa-percent"></i> Promote</a> <i class="fas fa-chevron-right arrow"></i></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> Help</a> <i class="fas fa-chevron-right arrow"></i></li>
+                </ul>
+            </nav>
+            <div class="upgrade-card">
+                <p>Upgrade to PRO to get access all Features!</p>
+                <button>Get Pro Now!</button>
+            </div>
+            <div class="user-profile">
+                <img src="https://via.placeholder.com/40" alt="Evano">
+                <div class="user-info">
+                    <strong>Evano</strong>
+                    <span>Project Manager</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Hello Evano 👋,</h1>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </header>
+
+            <section class="stats">
+                <div class="card">
+                    <div class="icon green"><i class="fas fa-users"></i></div>
+                    <div class="details">
+                        <span>Total Customers</span>
+                        <h2>5,423</h2>
+                        <span class="up"><i class="fas fa-arrow-up"></i> 16% this month</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon green"><i class="fas fa-user-check"></i></div>
+                    <div class="details">
+                        <span>Members</span>
+                        <h2>1,893</h2>
+                        <span class="down"><i class="fas fa-arrow-down"></i> 1% this month</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon green"><i class="fas fa-desktop"></i></div>
+                    <div class="details">
+                        <span>Active Now</span>
+                        <h2>189</h2>
+                        <div class="user-avatars">...</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="table-container">
+                <div class="table-header">
+                    <div>
+                        <h3>All Customers</h3>
+                        <p class="active-m">Active Members</p>
+                    </div>
+                    <div class="table-tools">
+                        <input type="text" placeholder="Search">
+                        <select><option>Short by: Newest</option></select>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Customer Name</th>
+                            <th>Company</th>
+                            <th>Phone Number</th>
+                            <th>Email</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td><span class="status active">Active</span></td>
+                        </tr>
+                        <tr>
+                            <td>Floyd Miles</td>
+                            <td>Yahoo</td>
+                            <td>(205) 555-0100</td>
+                            <td>floyd@yahoo.com</td>
+                            <td>Kiribati</td>
+                            <td><span class="status inactive">Inactive</span></td>
+                        </tr>
+                        </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
